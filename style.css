@@ -1,0 +1,201 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+
+/* first menu */
+.first-menu{
+    display: flex;
+    height: 30px;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.first-menu div{
+    margin-right: 20px ;
+}
+
+/* main menu */
+.menu{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    height: 70px;
+    background-color: aqua;
+
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu ul li{
+    margin: 40px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.menu ul img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* main body headings */
+
+.main-body{
+    display: flex;
+}
+
+article{
+    
+    margin-left: 4px;
+    width: 120%;
+}
+
+.match-info{
+   width: 30%;
+
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.secondaryArticles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 4px;
+}
+
+.secarticles1{
+    width: 32%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.secarticles2{
+    width: 32%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.secarticles3{
+    width: 32%;
+    margin-left: 4px;
+}
+
+.last-match{
+    display: flex;
+}
+
+.last-matcha{
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.next-match{
+    display: flex;
+}
+
+.next-matcha{
+    margin-top: 50px;
+}
+
+/* secondary heading */
+.slideshow {
+    overflow: hidden;
+    height: 500px;
+    width: 728px;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    }
+    .slide-wrapper {
+    width: 3000px;
+    animation: slide 18s infinite;
+    }
+    .image-container{
+    margin-top: 50px;
+    float: left;
+    height: 500px;
+    width: 728px;
+    }
+    @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+    }
+
+    footer{
+        background-color: gray;
+    }
+    
+    
+
+    /* Players */
+
+    .playersTab{
+        width: 100%;
+       
+    }
+
+    .players{
+        width: 350px;
+        background-color: aqua;
+        margin: 15px;
+    }
+
+    .defenders{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+    
+
+    p1{
+        font-size: 50px;
+        margin-right: 4px;
+    }
+    
+
+    H2, h3{
+        margin-left: 15px;
+    }
+
+    /* About page */
+
+    p2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    body>img{
+        margin: 10px;
+    }
+
+    .about{
+        margin: 10px;
+        text-align: justify;
+    }

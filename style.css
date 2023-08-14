@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    text-decoration-color: none;
 }
 body{
     margin: 0;
@@ -59,44 +60,57 @@ body{
 article{
     
     margin-left: 4px;
-    width: 120%;
-}
-
-.match-info{
-   width: 30%;
-
 }
 
 .article{
     display: flex;
-    align-items: center;
-    margin-top: 5px;
-    border-radius: 5px;
-    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.article img{
+    min-width: 360px;
+}
+
+.article>div{
+    width: 40%;
+    margin-left: 10px;
+}
+
+p5{
+    margin: 20px;
+}
+
+.articleRecap{
+    margin: 1px;
 }
 
 .secondaryArticles{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 4px;
     margin-right: 4px;
 }
 
 .secarticles1{
-    width: 32%;
+    width: 360px;
     margin-right: 4px;
     margin-left: 4px;
 }
 
 .secarticles2{
-    width: 32%;
+    width: 360px;
     margin-right: 4px;
     margin-left: 4px;
 }
 
 .secarticles3{
-    width: 32%;
+    width: 360px;
     margin-left: 4px;
+}
+
+.match-info{
+    width: 30%;
 }
 
 .last-match{
@@ -147,6 +161,8 @@ article{
 
     footer{
         background-color: gray;
+        display: flex;
+        justify-content: space-between;
     }
     
     
@@ -159,7 +175,7 @@ article{
     }
 
     .players{
-        width: 350px;
+        width: 300px;
         background-color: aqua;
         margin: 15px;
     }
@@ -195,7 +211,27 @@ article{
         margin: 10px;
     }
 
-    .about{
+    .about
+    {
         margin: 10px;
         text-align: justify;
     }
+
+
+/* check our latest */
+
+.col
+{
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+@media(max-width: 480px){
+
+    .main-body{
+        display: block;
+    }
+
+
+
+}
